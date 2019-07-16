@@ -1,5 +1,7 @@
 # Reinforcement learning Python3.6 to Python2.7 conversion problems
 
+## Note: this was done on Ubuntu16.04 system
+
 *based on Teach a Quadcopter How to Fly!*
 
 In this project, you will design an agent to fly a quadcopter, and then train it using a reinforcement learning algorithm of your choice! 
