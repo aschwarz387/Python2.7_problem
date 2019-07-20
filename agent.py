@@ -98,10 +98,10 @@ class DDPG():
         print(states[1])
         print(actions[0])
         print("Python2.7 agent.py saw those for states and actions")
-        a_g = self.critic_local.get_action_gradients([states[1], actions[1], 0])
-        print(type(a_g[0]))
-        print(a_g[0])
-        print("Python2.7 agent.py saw that action gradient")
+        #a_g = self.critic_local.get_action_gradients([states, actions, 0])
+        #print(type(a_g[0]))
+        #print(a_g[0])
+        #print("Python2.7 agent.py saw that action gradient")
 
         action_gradients = np.reshape(self.critic_local.get_action_gradients([states, actions, 0]), (-1, self.action_size))
 
